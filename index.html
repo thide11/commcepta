@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Teste Commcepta - Maciel web</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=2.0">
+</head>
+
+<body>
+	<header>
+		<div id="header-content">
+			<img src="assets/images/logo.png" id="logo">
+			<nav>
+				<a href="javascript:void(0)">
+					<div class="nav-option">
+						EMPRESA
+					</div>
+				</a>
+				<a href="javascript:void(0)">
+					<div class="nav-option">
+						SERVIÇO
+					</div>
+				</a>
+				<a href="javascript:void(0)">
+					<div class="nav-option">
+						CONTATO
+					</div>
+				</a>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<section id="person-info">
+			<div id="selected-person-image"></div>
+			<div id="selected-person-data">
+				<div class="selected-person-atribute">
+					<div class="selected-person-key">NOME</div>
+					<div class="selected-person-value" id="selected-person-name"></div>
+				</div>
+				<div class="selected-person-atribute">
+					<div class="selected-person-key">CARGO</div>
+					<div class="selected-person-value" id="selected-person-role"></div>
+				</div>
+				<div class="selected-person-atribute">
+					<div class="selected-person-key">IDADE</div>
+					<div class="selected-person-value" id="selected-person-age"></div>
+				</div>
+			</div>
+		</section>
+		<section id="persons-container"></section>
+		<script src="./data.js"></script>
+		<script src="./script.js"></script>
+	</div>
+	
+	<div id="low-resolution-warning">OPS: O projeto não tem suporte para telas menores que 768px</div>
+</body>
+
+</html>
